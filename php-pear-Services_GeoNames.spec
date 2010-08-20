@@ -6,12 +6,12 @@
 Summary:	%{_pearname} - A PHP5 interface to the GeoNames public API
 Summary(pl.UTF-8):	%{_pearname} - interfejs PHP5 do publicznego API GeoNames
 Name:		php-pear-%{_pearname}
-Version:	0.2.3
+Version:	1.0.0
 Release:	1
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	aba63e256fbb90dbacf7ea2c96a94811
+# Source0-md5:	e14ef015947915aefe78fa2c166ee534
 URL:		http://pear.php.net/package/Services_GeoNames/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
@@ -77,9 +77,9 @@ Ta klasa ma w PEAR status: %{_status}.
 Summary:	Tests for PEAR::%{_pearname}
 Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
-AutoReq:	no
 Requires:	%{name} = %{version}-%{release}
 AutoProv:	no
+AutoReq:	no
 
 %description tests
 Tests for PEAR::%{_pearname}.
