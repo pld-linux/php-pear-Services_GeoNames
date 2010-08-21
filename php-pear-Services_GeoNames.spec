@@ -1,19 +1,17 @@
 %include	/usr/lib/rpm/macros.php
-%define		_class		Services
-%define		_subclass	GeoNames
-%define		_status		beta
+%define		_status		stable
 %define		_pearname	Services_GeoNames
 Summary:	%{_pearname} - A PHP5 interface to the GeoNames public API
 Summary(pl.UTF-8):	%{_pearname} - interfejs PHP5 do publicznego API GeoNames
 Name:		php-pear-%{_pearname}
 Version:	1.0.0
-Release:	1
+Release:	2
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	e14ef015947915aefe78fa2c166ee534
 URL:		http://pear.php.net/package/Services_GeoNames/
-BuildRequires:	php-pear-PEAR
+BuildRequires:	php-pear-PEAR >= 1:1.4.0-0.b1
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear
 Requires:	php-pear-HTTP_Request2 >= 0.1.0
