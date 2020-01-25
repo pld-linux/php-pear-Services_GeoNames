@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_status		stable
 %define		_pearname	Services_GeoNames
 Summary:	%{_pearname} - A PHP5 interface to the GeoNames public API
