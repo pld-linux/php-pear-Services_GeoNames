@@ -4,7 +4,7 @@ Summary:	%{_pearname} - A PHP5 interface to the GeoNames public API
 Summary(pl.UTF-8):	%{_pearname} - interfejs PHP5 do publicznego API GeoNames
 Name:		php-pear-%{_pearname}
 Version:	1.0.1
-Release:	2
+Release:	3
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
